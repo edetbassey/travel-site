@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url("images/claudel-rheault.jpg");
+    background-size: cover; 
+    height: 900px;
+    padding: 30px 80px;
+}
+h1,h2,h3,h4,p, ul,li, span, div{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(46, 44, 44);
+}
+p{
+    font-size: 14px;
+}
+span{
+    color:lightgreen;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 2px dotted rgb(64, 64, 64);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 22px;
+}
+/* UTILS */
+.shadows {
+    text-shadow: 0 1px 1px rgb(49, 49, 49);
+}
+.mar{
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center;
+}
+.hone-header{
+    color: #fff;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.h{
+    font-weight: 400;
+    font-size: 56px;  
+}
+.ph{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* MAIN */
+main {
+    height: 500px;
+    background: #DFF6FF;
+    padding: 70px 0;
+    text-align: center;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.box{
+    width: 213.84px;
+    height: 400px;
+    border-radius: 8px;
+    color: #fff;
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid #77c040;
+    background: #82CD47;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 5px;
+    color: rgb(45, 44, 44);
+    margin-top: 30px;
+    font-size: 20px;
+}
+.one{
+    background: url("images/omotayo-tajudeen.jpg");
+    background-size: cover;
+    width: 213.84px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
